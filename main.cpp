@@ -22,13 +22,13 @@ int main(){
 
   Slow_test *slow = new Slow_test(variables, terminales, cant_reglas, reglas); 
   if(slow->es_vacio() == true){
-    cout << "SI" << endl; 
+    cout << "YES" << endl; 
   } else {
     cout << "NO" << endl;
   }
   TestVacioOn *fast = new TestVacioOn(variables, cant_reglas, reglas);
   if(fast->es_vacio() == true){
-    cout << "SI" << endl; 
+    cout << "YES" << endl; 
   } else {
     cout << "NO" << endl;
   }
