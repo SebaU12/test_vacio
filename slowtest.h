@@ -80,9 +80,6 @@ bool Slow_test::es_vacio(){
     }
     if(size_gen_b == this->generadores->size()) break; 
   }
-  for (auto gen = this->generadores->begin(); gen != nullptr ; gen = this->generadores->aumentar(gen)) {
-    if (gen->data == this->Sstate) return false; 
-  }
   return true; 
 }
 
