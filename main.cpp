@@ -21,10 +21,16 @@ int main(){
   }
 
   Slow_test *slow = new Slow_test(variables, terminales, cant_reglas, reglas); 
-  cout << "TEST VACIO O(n)^2";
-  cout << endl << boolalpha << slow->es_vacio() << endl;
+  if(slow->es_vacio() == true){
+    cout << "SI" << endl; 
+  } else {
+    cout << "NO" << endl;
+  }
   TestVacioOn *fast = new TestVacioOn(variables, cant_reglas, reglas);
-  cout << "TEST VACIO O(n)";
-  cout << endl << boolalpha << fast->es_vacio() << endl;
+  if(fast->es_vacio() == true){
+    cout << "SI" << endl; 
+  } else {
+    cout << "NO" << endl;
+  }
   return 0; 
 }
