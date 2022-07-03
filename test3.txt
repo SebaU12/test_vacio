@@ -1,0 +1,10 @@
+ab 
+SABCD 
+7
+S AB
+A BB
+A CC
+B AD
+B CA
+C a
+D b

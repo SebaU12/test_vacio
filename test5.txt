@@ -1,0 +1,16 @@
+ab 
+SABCD 
+13
+S aBAAb 
+S bABBa 
+S aCa 
+A aBa 
+A B 
+A a 
+B bAb 
+B A 
+B b 
+C aCa 
+C bDb 
+D aCa 
+D bDb 
